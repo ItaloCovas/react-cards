@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
   width: 100%;
-  max-width: 900px;
+  max-width: fit-content;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 100px auto;
 }
